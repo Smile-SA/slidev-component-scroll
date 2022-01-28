@@ -5,9 +5,6 @@
 Scroll navigation component for Slidev `Slidev`.  
 Navigate through the slides using the mouse wheel.
 
-![Ligth example](./assets/light.png)
-![Dark example](./assets/dark.png)
-
 ## Installation
 
 ```bash
