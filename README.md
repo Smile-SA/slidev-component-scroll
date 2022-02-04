@@ -2,7 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/slidev-component-scroll?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-component-scroll)
 
-Scroll navigation component for Slidev `Slidev`.  
+Scroll navigation component for `Slidev`.  
 Navigate through the slides using the mouse wheel.
 
 ## Installation
