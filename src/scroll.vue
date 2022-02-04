@@ -16,3 +16,6 @@ onMounted(() => window.addEventListener("wheel", onWheel));
 
 onUnmounted(() => window.removeEventListener("wheel", onWheel));
 </script>
+
+<template>
+</template>
