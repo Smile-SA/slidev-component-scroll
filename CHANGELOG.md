@@ -1,3 +1,9 @@
+### 0.2.0 (2022-03-24)
+
+##### New Features
+
+*  detect if we are inside a scrollable element ([e6ca9bef](https://github.com/Smile-SA/slidev-component-scroll/commit/e6ca9bef73677dcc6ebd09d079a47d5d4f1972cd))
+
 #### 0.1.1 (2022-02-04)
 
 ##### Bug Fixes
