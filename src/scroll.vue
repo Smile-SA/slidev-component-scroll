@@ -2,13 +2,17 @@
 import { onMounted, onUnmounted } from "vue";
 import { next, prev } from "@slidev/client/logic/nav";
 
+const scrollableOverflow = ["auto", "scroll", "overlay"];
+
 function onWheel(event: WheelEvent) {
   let element: HTMLElement | null = event.target as HTMLElement;
   let scrollable = false;
   do {
-    scrollable = element.scrollHeight > element.clientHeight;
+    scrollable =
+      element.scrollHeight > element.clientHeight &&
+      scrollableOverflow.includes(window.getComputedStyle(element).overflowY);
     element = element.parentElement;
-  } while (!scrollable && element)
+  } while (!scrollable && element);
 
   if (!scrollable) {
     if (event.deltaY > 0) {
@@ -24,5 +28,4 @@ onMounted(() => window.addEventListener("wheel", onWheel, { passive: true }));
 onUnmounted(() => window.removeEventListener("wheel", onWheel));
 </script>
 
-<template>
-</template>
+<template></template>
