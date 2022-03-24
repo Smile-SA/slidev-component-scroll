@@ -1,3 +1,9 @@
+#### 0.2.1 (2022-03-24)
+
+##### Bug Fixes
+
+*  scrollable detection ([792a3d03](https://github.com/Smile-SA/slidev-component-scroll/commit/792a3d0390f24393ec90f422d18bc85c41691f4c))
+
 ### 0.2.0 (2022-03-24)
 
 ##### New Features
