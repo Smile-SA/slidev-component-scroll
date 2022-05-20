@@ -1,3 +1,9 @@
+## 1.0.0 (2022-05-20)
+
+##### Refactors
+
+*  switch to use the new slidev addon system ([b247c726](https://github.com/Smile-SA/slidev-component-scroll/commit/b247c7267cd6ccee6cfa991fabeb5458c7cff88a))
+
 #### 0.2.2 (2022-05-06)
 
 ##### Chores
