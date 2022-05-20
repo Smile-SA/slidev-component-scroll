@@ -2,7 +2,8 @@
 
 [![NPM version](https://img.shields.io/npm/v/slidev-component-scroll?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-component-scroll)
 
-Scroll navigation component for `Slidev`.  
+Scroll navigation component for `Slidev`. 
+ 
 Navigate through the slides using the mouse wheel.
 
 ## Installation
@@ -11,21 +12,43 @@ Navigate through the slides using the mouse wheel.
 npm i slidev-component-scroll
 ```
 
-## Usage
+## Configuration
 
-Create a `./setup/main.ts` file in your `Slidev` project and register the plugin:
-```js
-import { defineAppSetup } from '@slidev/types'
-import Scroll from 'slidev-component-scroll'
+Define this package into your slidev addons.
 
-export default defineAppSetup(({ app, router }) => {
-  app.use(Scroll)
-})
+In your slides metadata (using frontmatter):
 ```
+---
+addons:
+  - slidev-component-scroll
+---
+```
+
+Or in your `package.json`:
+```json
+{
+  "slidev": {
+    "addons": [
+      "slidev-component-scroll"
+    ]
+  }
+}
+```
+
+## Usage
 
 Create a `./global-top.vue` file in your `Slidev` project and use the component:
 ```vue
 <template>
   <Scroll/>
 </template>
+```
+
+## Components
+
+### Scroll
+
+Component for the scroll feature:
+```vue
+<Scroll/>
 ```
