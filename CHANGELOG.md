@@ -1,3 +1,9 @@
+#### 1.0.1 (2023-01-25)
+
+##### Bug Fixes
+
+*  update packages ([415c622d](https://github.com/Smile-SA/slidev-component-scroll/commit/415c622d9bb65ef16cc197de1eff43221f64853c))
+
 ## 1.0.0 (2022-05-20)
 
 ##### Refactors
