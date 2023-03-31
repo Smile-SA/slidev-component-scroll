@@ -1,10 +1,14 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted } from "vue";
-import { next, prev } from "@slidev/client/logic/nav";
+import { isPrintMode, next, prev } from "@slidev/client/logic/nav";
 
 const scrollableOverflow = ["auto", "scroll", "overlay"];
 
 function onWheel(event: WheelEvent) {
+  if (isPrintMode.value) {
+    return;
+  }
+
   let element: HTMLElement | null = event.target as HTMLElement;
   let scrollable = false;
   do {
