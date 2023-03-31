@@ -1,3 +1,9 @@
+#### 1.0.2 (2023-03-31)
+
+##### Bug Fixes
+
+*  disable scroll on print page ([3978d9df](https://github.com/Smile-SA/slidev-component-scroll/commit/3978d9dfec5892a099fd7fa2ab2cc6285b9df124))
+
 #### 1.0.1 (2023-01-25)
 
 ##### Bug Fixes
