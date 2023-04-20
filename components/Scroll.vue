@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted } from "vue";
-import { isPrintMode, next, prev } from "@slidev/client/logic/nav";
+import { isPrintMode, next, prev } from "@slidev/client/logic/nav.ts";
 
 const scrollableOverflow = ["auto", "scroll", "overlay"];
 
