@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted } from "vue";
+import { useNav } from '@slidev/client'
 const { isPrintMode, next, prev } = useNav()
-
+  
 const scrollableOverflow = ["auto", "scroll", "overlay"];
 
 function onWheel(event: WheelEvent) {
