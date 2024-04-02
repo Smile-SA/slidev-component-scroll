@@ -1,3 +1,14 @@
+### 1.1.0 (2024-04-02)
+
+##### Chores
+
+*  update deps ([e0824e47](https://github.com/Smile-SA/slidev-component-scroll/commit/e0824e47cbe0dddedefe47982ae2b652659d2818))
+*  update license ([19a3befb](https://github.com/Smile-SA/slidev-component-scroll/commit/19a3befbe1689b5fd8e503e918a0e6c573542e07))
+
+##### Bug Fixes
+
+*  add missing import ([7f9b8f36](https://github.com/Smile-SA/slidev-component-scroll/commit/7f9b8f36645aa473a9dc80bdf60ae760abae9879))
+
 #### 1.0.3 (2023-04-20)
 
 ##### Bug Fixes
